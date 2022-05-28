@@ -1,0 +1,20 @@
+/carpeta-ignorable
+
+#Ignorar archivos .pdf dentro de assets
+assets/*.pdf
+
+#Ignorar archivos .txt
+**/*.txt
+
+#Ignorar imagenes a excepción de las esenciales al sistema
+**/*-system.*
+
+#Ignorar archivos -prueba o -local
+**/*-prueba.*
+**/*-local.*
+
+#Ignorar carpeta ContenidoSecreto
+**/ContenidoSecreto
+
+#Ignorar Config.php
+**/config.php
